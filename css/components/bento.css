@@ -209,6 +209,7 @@
     height: 500px;
     width: 1056px;
     /* background-color: coral; */
+    margin: 8px;
   }
 
   .photos-row {
@@ -216,11 +217,19 @@
     flex-direction: row;
     height: 70%;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
   }
 
   .gallery-text-column {
     display: flex;
     flex-direction: column;
-    gap: 0px
+    gap: 0px;
+
+  }
+
+  .photo-g {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
   }
