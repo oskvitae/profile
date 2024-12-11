@@ -1,0 +1,90 @@
+.macos-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #e8e8e8;
+  height: 28px;
+  width: 100%;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.os-name {
+  padding: 0;
+  color: #7b7b7b;
+}
+
+#os-name {
+  font-weight: bold;
+  color: #787878;
+  font-size: 14px;
+}
+
+.macos-buttons {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+#nav-pepper {
+  color: #787878;
+  margin: 0;
+  padding: 0;
+  transition: 0.8s;
+  /* animation: pulse 3.6s infinite;  //Come back,maybe */
+}
+
+#nav-pepper:hover {
+  color: #ff5f57;
+}
+/* Animation? Slight overkill... */
+/* @keyframes pulse {
+  0% {
+    color: #ff5f57;
+  }
+  50% {
+    color:#c43932;
+  }
+  100% {
+    color: #ff5f57;
+  }
+} */
+
+
+
+#nav-right-os {
+  display: flex;
+  flex-direction: row-;
+  justify-content: center;
+  align-items: center;
+  gap: 8px
+}
+
+.button {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #ff5f57;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.button.red {
+  background-color: #ff5f57;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* TODO: Add a subtle x on hover and link button to github homepage URL. */
+
+.button.orange {
+  background-color: #ffbd2e;
+  cursor: pointer;
+}
+
+.button.green {
+  background-color: #28c840;
+  cursor: pointer;
+}

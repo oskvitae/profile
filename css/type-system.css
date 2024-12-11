@@ -1,0 +1,109 @@
+/* VARIABLES FOR STYLES */
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-accent: 'Roboto Mono', monospace;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --heading-lg-size: 48px;
+  --heading-md-size: 32px;
+  --heading-sm-size: 24px;
+  --subheading-size: 20px;
+  --body-lg-size: 18px;
+  --body-md-size: 16px;
+  --body-sm-size: 13px;
+  --caption-size: 12px;
+
+  --line-height-tight: 1.2;
+  --line-height-regular: 1.5;
+  --line-height-loose: 1.75;
+
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.05em;
+}
+
+
+/* HEADINGS CLASSES */
+.heading-lg {
+  font-family: var(--font-primary);
+  font-size: var(--heading-lg-size);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-normal);
+  margin-bottom: 1rem;
+}
+
+.heading-md {
+  font-family: var(--font-primary);
+  font-size: var(--heading-md-size);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-normal);
+  margin-bottom: 0.75rem;
+}
+
+.heading-sm {
+  font-family: var(--font-primary);
+  font-size: var(--heading-sm-size);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-normal);
+  margin-bottom: 0.5rem;
+}
+
+.subheading {
+  font-family: var(--font-primary);
+  font-size: var(--subheading-size);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-normal);
+  color: #666; /* Subtle gray for secondary importance */
+  margin-bottom: 0.5rem;
+}
+
+/* Large Body Text */
+.body-lg {
+  font-family: var(--font-primary);
+  font-size: var(--body-lg-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-loose);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+.body-md {
+  font-family: var(--font-primary);
+  font-size: var(--body-md-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-loose);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+.body-sm {
+  font-family: var(--font-primary);
+  font-size: var(--body-sm-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-loose);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+/*  EXTRRAS  */
+.caption {
+  font-family: var(--font-primary);
+  font-size: var(--caption-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-wide);
+  color: #3aa356;
+}
+
+.accent {
+  font-family: var(--font-accent);
+  font-size: var(--body-sm-size);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-normal);
+  color: #3aa96a;
+}
